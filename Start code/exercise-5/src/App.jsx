@@ -8,7 +8,7 @@ function App() {
             <div className="row">
                 {AVAILABLE_PLACES.map((place) => (
                     <div key={place.id} className="col-md-4">
-                        {/* Pass the button text along with the other props */}
+                        
                         <Card 
                             title={place.title} 
                             image={place.image} 
